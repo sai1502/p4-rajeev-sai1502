@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: darkgrey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+  text-align: center;
+  background-image: url("headerImg.jpeg");
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.flex-item1 {
+  /* background-color: grey; */
+  width: 750px;
+  height: auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: left;
+}
+
+.flex-item2 {
+  /* background-color: grey; */
+  width: 750px;
+  height: auto;
+  margin: 20px;
+  padding: 30px;
+}
+
+.flex-item3 {
+  background-color: grey;
+  width: 550px;
+  height: 375px;
+  margin: 40px;
+  padding: 30px;
+  background-image: url("robo.jpg");
+  background-repeat: no-repeat;
+}
+
+.flex-item4 {
+  width: 750px;
+  height: auto;
+  margin: 20px;
+  padding: 30px;
+  margin-left: -34px;
+  margin-top: -15px;
+}
+
+.footer-container {
+  align-items: center;
+  justify-content: center;
+  /* justify-items: stretch; */
+  /* justify-content: space-between !important; */
+  margin-left: ;
+  margin-left: 450px;
+  padding: 15px;
+  margin-top: -30px;
+}
+.option:hover {
+  color: #fff;
+  text-decoration: underline;
+}
