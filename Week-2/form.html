@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <style>
+        form {
+            margin: auto;
+            width: 21%;
+            padding: 5%;
+            background-color: lightgrey;
+            margin-top: 75px;
+            border-radius: 8px;
+            border: 2px solid black;
+            box-shadow: 2px;
+        }
+
+        body {
+            background-image: url("downloadNew.jpeg");
+        }
+
+        select {
+            width: 300px;
+        }
+
+        button {
+            padding: 4px;
+            border-radius: 8px;
+            background-color: red;
+            margin-left: 60px;
+            width: 165px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        Title :   <input type="radio" id="Mr" name="fav_language" value="Mr" />  
+        <label for="Mr">Mr</label>  
+        <input type="radio" id="Mrs" name="fav_language" value="Mrs" />  
+        <label for="Mrs">Mrs</label>  
+        <input type="radio" id="Miss" name="fav_language" value="Miss" />  
+        <label for="Miss">Miss</label> <br /><br /><br />
+        <div>
+            First name:
+            <input type="text" placeholder="first name" style="width: 210px" />
+            <br /><br /><br />
+            Last name:
+            <input type="text" placeholder="last name" style="width: 210px" />
+            <br /><br /><br />
+            Email:
+            <input type="email" placeholder="Enter email" style="width: 240px" />
+            <br /><br /><br />
+            Phone number:
+            <input type="number" placeholder="contact number" style="width: 188px" />
+            <br /><br /><br />
+            Password:
+            <input type="password" placeholder="password" style="width: 220px" />
+            <br /><br /><br />
+            Confirm password:
+            <input type="password" placeholder="password" style="width: 164px" />
+            <br /><br /><br />
+            <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="United States">United States</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <br /><br />
+        </div>
+        <button onclick="window.alert('Submitted Sucessfully')">Submit</button>
+    </form>
+</body>
+
+</html>
