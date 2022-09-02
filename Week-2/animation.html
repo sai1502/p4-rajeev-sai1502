@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animations & Translate</title>
+    <style>
+      #container {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 220px;
+      }
+      .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        transition-property: transform;
+        transition-duration: 3s;
+      }
+      .item1 {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+      .item2{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+      .item3{
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+      .item4{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+      .message{
+        position: absolute;
+        left: 45%;
+        top: 45%;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+        <h2 class="message">Hi There..</h2>
+      <div id="box-1" class="grid-item item1"></div>
+      <div id="box-2" class="grid-item item2"></div>
+      <div id="box-3" class="grid-item item3"></div>
+      <div id="box-4" class="grid-item item4"></div>
+    </div>
+    <script>
+        document.getElementById("container").addEventListener("mousemove", function() {
+            let boxOne = document.getElementById('box-1');
+            let boxTwo = document.getElementById('box-2');
+            let boxThree = document.getElementById('box-3');
+            let boxFour = document.getElementById('box-4');
+
+            boxOne.style.transform="rotate(90deg)";
+            boxOne.style.transformOrigin="top left";
+
+            boxTwo.style.transform="rotate(-90deg)";
+            boxTwo.style.transformOrigin="top right";
+
+            boxThree.style.transform="rotate(-90deg)";
+            boxThree.style.transformOrigin="bottom left";
+
+            boxFour.style.transform="rotate(90deg)";
+            boxFour.style.transformOrigin="bottom right";
+            
+        })
+
+
+        
+    </script>
+  </body>
+</html>

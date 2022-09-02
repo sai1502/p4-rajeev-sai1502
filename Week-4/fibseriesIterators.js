@@ -1,6 +1,7 @@
 let Fib = (n) => ({
     [Symbol.iterator]: () => {
         let i = 1;
+        let i = 0;
         let old = 0;
         let new1 = 0;
         return {

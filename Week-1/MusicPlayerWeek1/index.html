@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Music Player</title>
+  </head>
+  <style>
+      *{
+          margin: 0px;
+          padding: 0px;
+      }
+      .flex-container{
+          display: flex;
+          flex-direction: column;
+          float: left;
+          padding: 10px;
+          background: lightgrey;
+      }
+      .container{
+          padding: 25px;
+          background:grey;
+          margin:10px;
+          display: flex;
+          padding: 25px;
+      }
+      table {
+  border-collapse: collapse;
+  width: 95%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+.table-container{
+    margin-left: 5px
+}
+.footer{
+    background: blue;
+    position: relative;
+    top: 200px;
+}
+.music-card{
+    height: 100px;
+    margin: 5px;
+    margin-left: -44px;
+}
+p{
+    color: white;
+}
+.music-controls{
+    margin-top: 17%;
+    margin-left: -13%;
+}
+.contorls{
+    display: inline-flex;
+    position: absolute;
+    padding-top: 3%;
+}
+  </style>
+  <body>
+  
+  <div class="flex-container">
+            <img style="margin-bottom:60px; height:30px; width:30px" src="menu.png">
+            <img style="margin-bottom:60px; height:30px; width:30px" src="home1.png">
+            <img style="margin-bottom:60px; height:30px; width:30px" src="search.png">
+            <img style="margin-bottom:60px; height:30px; width:30px" src="sound.png">
+            <img style="margin-bottom:60px; height:30px; width:30px" src="settings.png">
+            <img style="margin-bottom:60px; height:30px; width:30px" src="profile.png">
+            <img style="margin-bottom:60px; height:30px; width:30px" src="cloud.png">
+    </div> 
+    <div class="container">
+        <img src="cardMusic.jpeg">
+        <h2 style="color: white; padding:30px;">CattyBoard Top 100 Single Charts(11.06.36)</h2>
+        <p style="color: white; padding:25px; margin-left:-38%; margin-top:3%">Unknown Artist</p><br/>
+        <p style="color: white; padding:35px; margin-top:4%; margin-left:-162px">2016.Charts.100 Songs</p>
+        <div class="music-controls">
+            <img style="height: 16px; width:16px" src="play.png">Play
+        <img style="height: 16px; width:16px; margin-left:10px"src="add.png">Add
+        <img style="height: 16px; width:16px; margin-left:10px"src="more.png">More
+        </div>
+        
+    </div>
+    <div class="table-container">
+        <table>
+            <tr>
+            <td>1. Once Dance</td>
+            <td>Crake Cimbesfake</td>
+            <td>2:54</td>
+            <td><a href="#">CATTY CLOUD SYNC</a></td>
+            </tr>
+            <tr>
+            <td>2. Panda</td>
+            <td>Cattee</td>
+            <td>4:06</td>
+            <td><a href="#">CATTY CLOUD SYNC</a></td>
+            </tr>
+            <tr>
+            <td>3. Can't Stop the feeling</td>
+            <td>Catin Climbeslake</td>
+            <td>3:56</td>
+            <td><a href="#">CATTY CLOUD SYNC</a></td>
+            </tr>
+            <tr>
+            <td>4. Work From Home</td>
+            <td>Cat Harmony feat Colla</td>
+            <td>3:34</td>
+            <td><a href="#">CATTY CLOUD SYNC</a></td>
+            </tr>
+          </table>
+    </div>
+
+  </body>
+  <div class="footer">
+    <img class="music-card" src="cardMusic.jpeg">
+    
+    <div class="contorls">
+        <img style="margin-left:600%;"src="previous.png">
+        <img style="margin-left:150%;" src="pause.png">
+        <img style="margin-left:150%;" src="next.png">
+        </div>    
+</div>
+
+</html>
