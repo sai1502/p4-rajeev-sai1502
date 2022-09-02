@@ -43,13 +43,13 @@
 }
 
 .flex-item3 {
+
   width: 550px;
   height: 375px;
   margin: 40px;
   padding: 30px;
   background-image: url("robo.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .flex-item4 {
@@ -57,6 +57,25 @@
   height: auto;
   margin: 20px;
   padding: 30px;
+
+  margin-left: -34px;
+  margin-top: -15px;
+}
+
+.footer-container {
+  align-items: center;
+  justify-content: center;
+  /* justify-items: stretch; */
+  /* justify-content: space-between !important; */
+  margin-left: ;
+  margin-left: 450px;
+  padding: 15px;
+  margin-top: -30px;
+}
+.option:hover {
+  color: #fff;
+  text-decoration: underline;
+}
   margin-top: -15px;
 }
 .form-container{
